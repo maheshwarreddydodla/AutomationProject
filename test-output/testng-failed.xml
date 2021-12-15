@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Locators.LocatorsTest">
+      <class name="CRUD.AddressTest">
         <methods>
-          <include name="locatorsTest"/>
+          <include name="AfterTest"/>
+          <include name="updateAddressTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- Locators.LocatorsTest -->
+      </class> <!-- CRUD.AddressTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
