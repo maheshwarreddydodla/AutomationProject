@@ -21,7 +21,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.AutomationProject.CommonMethods;
-import com.AutomationProject.Data;
+import com.AutomationProject.TestNG.Data;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

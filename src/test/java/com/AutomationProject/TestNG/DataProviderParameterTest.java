@@ -11,8 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.AutomationProject.Data;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
