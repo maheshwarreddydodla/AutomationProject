@@ -30,7 +30,7 @@ public class CrossBrowserTest {
 			driver = new EdgeDriver();
 
 		} else {
-			System.out.println("Driver id not available");
+			System.out.println("Driver is not available");
 		}
 		
 		
